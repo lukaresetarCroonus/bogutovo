@@ -642,7 +642,7 @@ export const useCategoryProducts = ({
   setIsLoadingMore,
   isSection,
 }) => {
-  return useSuspenseQuery({
+  return useQuery({
     queryKey: [
       "categoryProducts",
       {
